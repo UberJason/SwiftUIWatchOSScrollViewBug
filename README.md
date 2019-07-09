@@ -8,5 +8,10 @@ Steps to reproduce:
  - Observe that the bottom of the rectangles is cut off (the bottom borders are not visible). When running the preview live, observe that the scrollview may be scrolled vertically to see the bottoms of the rectangles.
  - Change the initializer of the ScrollView to include [.horizontal, .vertical] and observe that the rectangles are no longer cut off. When running the preview live, the scrollview bounces vertically.
 
+Content cut off by the scroll view when configured for horizontal scrolling:
+
 ![Content cut off](Cutoff.png)
+
+Content rendering correctly when configured for horizontal or vertical scrolling:
+
 ![Content rendering correctly](Fine.png)
